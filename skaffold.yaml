@@ -5,8 +5,8 @@ build:
     envTemplate:
       template: "{{.DOCKER_REGISTRY}}/marceloaguero/lb-api:{{.VERSION}}"
   artifacts:
-  - imageName: changeme
-    workspace: .
+  - image: changeme
+    context: .
     docker: {}
   local: {}
 deploy:
