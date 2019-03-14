@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.27.247.223:5000/marceloaguero/lb-api
+  tag: 0.0.4
   pullPolicy: IfNotPresent
 service:
   name: lb-api
